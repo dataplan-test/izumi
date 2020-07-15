@@ -1,0 +1,319 @@
+@charset "UTF-8";
+/*-----------------------------------
+
+	partner
+
+-----------------------------------*/
+
+/*-----------------------------------
+
+	partner_block
+
+-----------------------------------*/
+#partner_block {
+	padding:50px 0;
+	background:#fff;
+}
+#partner_block p{
+	font-size: 16px;
+}
+#partner_block .copy_area {
+	margin-bottom: 70px;
+}
+#partner_block h3 {
+	font-size:24px;
+	color:#3f9ee4;
+	position:relative;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+#partner_block h3:before {
+	content: "";
+    display: block;
+    width: 8px;
+    height: 25px;
+    background: #3f9ee4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	top: 0;
+	margin: auto;
+}
+#partner_block .area01, #partner_block .area02,
+#partner_block .area03, #partner_block .area04,
+#partner_block .area05, #partner_block .details{
+	padding-bottom: 70px;
+}
+#partner_block .area01_01 {
+	padding: 0 0 40px 0;
+	background: url(../img/system/system_img_teian.png) no-repeat right center;
+}
+#partner_block .area01_02{
+	text-align: center;
+}
+#partner_block .area01_02 ul{
+	display: inline-block;
+	padding: 20px 40px;
+	background: #3f9ee4;
+}
+#partner_block .area01_02 ul li{
+	color: #fff;
+	text-align: left;
+	line-height: 2;
+
+}
+#partner_block .area01_02 ul li::before{
+	font-family: "Font Awesome 5 Free";
+	content: '\f00c';
+	font-weight: 900;
+	margin-right: 5px;
+}
+#partner_block .arrow {
+	width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color:  transparent transparent #3f9ee4 #3f9ee4;
+    transform: rotate(-45deg);
+	display: block;
+	margin: 0 auto 20px;
+}
+#partner_block .area01_03 {
+	margin-bottom: 40px;
+	text-align: center;
+}
+#partner_block .area01_03 h4{
+	font-size: 24px;
+	color: #ffb400;
+	margin-bottom: 20px;
+}
+#partner_block .area01_03 h4 br{
+	display: none;
+}
+#partner_block .area01_03 .a01_03_box {
+	float: left;
+	width: 48%;
+}
+#partner_block .area01_03 .a01_03_box:first-child {
+	margin-right: 4%;
+}
+#partner_block .area01_03 .a01_03_box h5{
+	display: block;
+	padding: 10px;
+	background: #3f9ee4;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+}
+#partner_block .area02 {
+	counter-reset: number;
+}
+#partner_block .area02 .area02_box {
+	display: block;
+	border-left: 5px solid #ffb400;
+	padding-left: 20px;
+	margin-top: 30px;
+}
+#partner_block .area02 .area02_box h4{
+	font-size: 20px;
+	line-height: 1.8;
+}
+#partner_block .area02 .area02_box h4 span{
+	font-size: 24px;
+	color: #3f9ee4;
+}
+#partner_block .area02 .area02_box h4::before{
+	counter-increment: number;
+   	content: "メリット "counter(number);
+	display: block;
+}
+#partner_block .area03 .area03_wrap {
+	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+#partner_block .area03 .area03_wrap dl.area03_box{
+	width: 23.5%;
+}
+#partner_block .area03 .area03_wrap dl.area03_box dt{
+	display: block;
+	border-top: 5px solid #3f9ee4;
+	border-bottom: 3px solid #3f9ee4;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+}
+#partner_block .area03 .area03_wrap dl.area03_box dt img{
+	display: block;
+	margin: 0 auto 10px;
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+}
+#partner_block .area03 .area03_wrap dl.area03_box dd{
+	padding: 15px 0;
+	font-size: 16px;
+	line-height: 1.6;
+}
+#partner_block .kakudai {
+	border: 2px solid #3f9ee4;
+	border-radius: 10px;
+	background: url(../img/system/bg_omakase.png) no-repeat bottom right;
+}
+#partner_block .kakudai h3 {
+	background: #3f9ee4;
+	color: #fff;
+	padding: 10px;
+	border-radius: 8px 8px 0 0;
+	line-height: 1;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+#partner_block .kakudai ul {
+	padding: 20px;
+	width: 100%;
+}
+#partner_block .kakudai ul li{
+	float: left;
+	width: 50%;
+	font-size: 16px;
+	line-height: 2;
+}
+#partner_block .kakudai ul li::before{
+	font-family: "Font Awesome 5 Free";
+	content: '\f00c';
+	font-weight: 900;
+	color: #3f9ee4;
+	margin-right: 5px;
+}
+#partner_block .contact {
+	background: #3f9ee4;
+	color: #fff;
+	padding: 20px;
+	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+}
+#partner_block .contact .contact_left {
+	width: 40%;
+	text-align: center;
+}
+#partner_block .contact .contact_left .tel{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1;
+}
+#partner_block .contact .contact_left .tel::before{
+	font-family: "Font Awesome 5 Free";
+	content: '\f879';
+	font-weight: 900;
+	margin-right: 5px;
+}
+#partner_block .contact .contact_right {
+	width: 60%;
+	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+#partner_block .contact .contact_right a{
+	background: #ffb400;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	color: #000;
+	padding: 20px;
+	display: block;
+	width: 100%;
+}
+#partner_block .contact .contact_right a br{
+	display: none;
+}
+#partner_block .contact .contact_right a:hover{
+	background: #696f6e;
+}
+@media screen and (max-width: 1000px) {
+	#partner_block .area01_04 ul li::before{
+		height: 14vw;
+	}
+	#partner_block .area01_04 ul li p{
+		line-height: 14vw;
+	}
+}
+@media screen and (max-width: 840px) {
+	#partner_block h3 {
+		font-size:20px;
+	}
+	#partner_block .area01_01 {
+		padding: 20px 0 40px 0;
+		background: none;
+	}
+	#partner_block .area01_03 h4{
+		font-size: 20px;
+	}
+	#partner_block .area03 .area03_wrap {
+		-ms-flex-wrap: wrap;
+	  	flex-wrap: wrap;
+	}
+	#partner_block .area03 .area03_wrap dl.area03_box{
+		width: 48%;
+		margin-bottom: 10px;
+	}
+	#partner_block .kakudai ul {
+		width: 100%;
+	}
+	#partner_block .kakudai ul li{
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#partner_block .area01, #partner_block .area02,
+	#partner_block .area03, #partner_block .area04,
+	#partner_block .area05, #partner_block .details{
+		padding-bottom: 40px;
+	}
+	#partner_block .area01_03 .a01_03_box {
+		float: none;
+		width: 100%;
+	}
+	#partner_block .area01_03 .a01_03_box:first-child {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	#partner_block .area01_03 .a01_03_box h5{
+		font-size: 18px;
+	}
+	#partner_block .area01_03 h4 br{
+		display: inline-block;
+	}
+	#partner_block .area03 .area03_wrap dl.area03_box dd{
+		font-size: 14px;
+	}
+	#partner_block .area03 .area03_wrap dl.area03_box dt{
+		font-size: 16px;
+	}
+	#partner_block .contact {
+		-webkit-box-orient: vertical;
+	  	-webkit-box-direction: normal;
+	  	-ms-flex-direction: column;
+	  	flex-direction: column;
+	}
+	#partner_block .contact .contact_left,
+	#partner_block .contact .contact_right{
+		width: 100%;
+	}
+	#partner_block .contact .contact_right a{
+		font-size: 18px;
+	}
+	#partner_block .contact .contact_right a br{
+		display: inline;
+	}
+}

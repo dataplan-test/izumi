@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/*-----------------------------------
+
+	lower_head
+
+-----------------------------------*/
+#lower_head{
+	position:relative;
+    background: #fff;
+	height: 100px;
+}
+#lower_head h1 {
+	text-align:center;
+	margin:auto;
+	position:absolute;
+	top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	z-index: 1;
+}
+#lower_head h1 img {
+	width:80%;
+}
+@media screen and (max-width: 640px) {
+	#lower_head{
+		position:relative;
+	    background: #fff;
+		height: 70px;
+	}
+}
+
+/* ナビ */
+
+#nav_top div {
+	width:100%;
+	background : #696f6e ;
+	position: relative;
+	overflow: hidden;
+}
+
+	#nav_top ul {
+		max-width:1000px;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	#nav_top li:first-child{
+		width: 20%;
+		height: 55px;
+		text-align: center;
+		float: left;
+		border-left: 2px dotted #fff;
+	}
+
+	#nav_top li {
+		width: 20%;
+		height: 55px;
+		text-align: center;
+		float: left;
+		border-right: 2px dotted #fff;
+	}
+
+	#nav_top li a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 15px;
+		color: #fff !important;
+		line-height: 1;
+		letter-spacing: 0.1rem;
+		height: 55px;
+		width: 100%;
+		text-decoration:none;
+	}
+
+	#nav_top li a:hover {
+		background : #ffb400 ;
+	}
+
+/*more_btn*/
+#lower_head .more_btn {
+	position:absolute;
+	top: 75%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	color:#fff;
+	font-size:14px;
+	border:2px solid #fff;
+	padding:10px;
+	width:250px;
+	text-align:center;
+	z-index: 9999;
+}
+#lower_head .more_btn:hover {
+	opacity:0.8;
+}
+
+/*-----------------------------------
+
+	lower
+
+-----------------------------------*/
+#lower_img {
+    width : 100% ;
+	text-align:center;
+	background : url(../img/index/bg_dot.png) , url(../img/index/mainImage_A.jpg) ;
+	background-color:#0a0200;
+	background-repeat : repeat , no-repeat ;
+	background-position: center center ;
+	height : 100px ;
+	/* IE */
+	background : url(../img/index/mainImage_A.jpg) no-repeat \9;
+}
+
+#lower_img h2 {
+    text-align: left;
+    font-size: 38px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+	color:#414038;
+	padding: 31px 0;
+}
+#breadcrumb {
+    width: 100%;
+    background: #3f9ee4;
+    padding: 2.5px 0;
+}
+
+.contents_inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#breadcrumb ul li {
+    float: left;
+    display: inline-block;
+    font-size: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#breadcrumb ul li a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#breadcrumb ul li::after {
+    content: ">";
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+a, a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#breadcrumb ul li:last-of-type::after {
+    content: "";
+    padding: 0;
+}
+
+@media screen and (max-width: 840px) {
+
+.contents_inner {
+	width: 95%;
+	margin: 0 auto;
+}
+
+#lower_img h2 {
+    padding-left: 30px;
+	font-size: 28px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+#lower_img {
+	height:auto;
+}
+
+#lower_img .grand {
+	width:100%;
+}
+
+#lower_img h2 {
+    padding-left: 0;
+	font-size: 20px;
+}
+
+}
+
+/*-----------------------------------
+
+	h3_style
+
+-----------------------------------*/
+.h3_style {
+	text-align:center;
+	background:#ff9e3e;
+	padding:30px 0;
+	font-size:30px;
+	color:#fff;
+	margin-bottom:20px;
+	letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 840px) {
+
+.h3_style {
+	font-size:20px;
+	padding: 15px 0;
+}
+
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+}

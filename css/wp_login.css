@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* ===================================================
+
+  login screen
+
+=====================================================*/
+body.login {} /* ログイン画面の背景 */
+body.login div#login {} /* ログインフォームの幅、デフォルトでは320pxに指定 */
+body.login div#login h1 {} /* ログイン画面のロゴを囲む、指定されているのはtext-align: center;のみ */
+body.login div#login h1 a {
+	background-image: url(http://www.dataplan.site/wp-content/themes/dataplan/img/common/head_logo.png);
+	width: 250px;
+	background-size: 250px;
+	transition: opacity .3s;
+} /* ロゴ画像変更、ロゴに関するCSSはこのセレクタを使用 */
+body.login div#login h1 a:hover {
+	opacity: .8;
+}
+body.login div#login form#loginform {} /* ログインフォーム全体のセレクタ */
+body.login div#login form#loginform p {} /* フォーム入力欄のlabelとinputを囲むpタグ */
+body.login div#login form#loginform p label {} /* フォーム入力欄のラベル */
+body.login div#login form#loginform input {} /* フォーム入力欄とログインボタン */
+body.login div#login form#loginform input#user_login {}  /* ユーザー名入力欄のみのセレクタ */
+body.login div#login form#loginform input#user_pass {} /*　パスワード入力欄のみのセレクタ　*/
+body.login div#login form#loginform p.forgetmenot {} /* ログイン状態を保存するチェックボックスとテキストを囲むpタグ */
+body.login div#login form#loginform p.forgetmenot input#rememberme {}  /* 「ログイン状態を保存する」テキスト */
+body.login div#login form#loginform p.submit {} /* ログインボタンを囲むpタグ */
+body.login div#login form#loginform p.submit input#wp-submit {} /* ログインボタン */
+body.login div#login p#nav {} /* 「パスワードをお忘れですか」を囲むpタグ */
+body.login div#login p#nav a {} /* 「パスワードをお忘れですか」のaタグ */
+body.login div#login p#backtoblog {} /* 「～へ戻る」を囲むpタグ */
+body.login div#login p#backtoblog a {} /* 「～へ戻る」のaタグ */

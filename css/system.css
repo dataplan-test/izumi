@@ -1,0 +1,321 @@
+@charset "UTF-8";
+/*-----------------------------------
+
+	system
+
+-----------------------------------*/
+
+/*-----------------------------------
+
+	system_block
+
+-----------------------------------*/
+#system_block {
+	padding:50px 0;
+	background:#fff;
+}
+#system_block p{
+	font-size: 16px;
+}
+#system_block .copy_area {
+	padding: 0 0 40px 0;
+}
+#system_block h3 {
+	font-size:24px;
+	color:#3f9ee4;
+	position:relative;
+	padding-left: 20px;
+}
+
+#system_block h3:before {
+	content: "";
+    display: block;
+    width: 8px;
+    height: 25px;
+    background: #3f9ee4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	top: 0;
+	margin: auto;
+}
+#system_block .area01, #system_block .area02,
+#system_block .area03, #system_block .area04,
+#system_block .area05, #system_block .details{
+	padding-bottom: 70px;
+}
+#system_block .area01_01 {
+	padding: 20px 0 40px 0;
+	background: url(../img/system/system_img_teian.png) no-repeat right center;
+}
+#system_block .area01_02{
+	text-align: center;
+}
+#system_block .area01_02 ul{
+	display: inline-block;
+	padding: 20px 40px;
+	background: #3f9ee4;
+}
+#system_block .area01_02 ul li{
+	color: #fff;
+	text-align: left;
+	line-height: 2;
+
+}
+#system_block .area01_02 ul li::before{
+	font-family: "Font Awesome 5 Free";
+	content: '\f00c';
+	font-weight: 900;
+	margin-right: 5px;
+}
+#system_block .arrow {
+	width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color:  transparent transparent #3f9ee4 #3f9ee4;
+    transform: rotate(-45deg);
+	display: block;
+	margin: 0 auto 20px;
+}
+#system_block .area01_03 {
+	border: 3px solid #3f9ee4;
+	display: block;
+	margin-bottom: 50px;
+}
+#system_block .area01_03 h4{
+	display: block;
+	background: #3f9ee4;
+	padding: 10px;
+	font-size: 24px;
+	color: #fff;
+}
+#system_block .area01_03 p{
+	margin: 20px;
+}
+#system_block .area01_04 h4{
+	font-size: 24px;
+	color: #ffb400;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#system_block .area01_04 ul li{
+	float: left;
+	width: 21%;
+	height: 140px;
+	margin-right: 5.33%;
+	position: relative;
+}
+#system_block .area01_04 ul li::before{
+	content: '';
+	width: 100%;
+	height: 140px;
+	border-radius: 50%;
+	background: #3f9ee4;
+	transform: rotate(-30deg);
+	position: absolute;
+}
+#system_block .area01_04 ul li p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 140px;
+	font-weight: 700;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+#system_block .area01_04 ul li:last-child{
+	margin-right: 0;
+}
+#system_block .area02_01, #system_block .area03_01,
+#system_block .area04_01, #system_block .area05_01{
+	padding: 20px 0 0;
+}
+#system_block .area04_01 .right, #system_block .area05_01 .right{
+	margin-left: 20px;
+}
+#system_block .details h3 {
+	color: #fff;
+	background: #ffb400;
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 20px;
+}
+#system_block .details h3:before {
+    background: #fff;
+    left: 5px;
+}
+#system_block .details ul li {
+	float: left;
+	width: 33.33%;
+	font-size: 16px;
+	line-height: 2;
+}
+#system_block .details p {
+	text-align: right;
+	font-size: 16px;
+}
+#system_block .omakase {
+	border: 2px solid #3f9ee4;
+	border-radius: 10px;
+	background: url(../img/system/bg_omakase.png) no-repeat bottom right;
+}
+#system_block .omakase h3 {
+	background: #3f9ee4;
+	color: #fff;
+	padding: 10px;
+	border-radius: 8px 8px 0 0;
+	line-height: 1;
+	font-size: 18px;
+}
+#system_block .omakase ul {
+	padding: 20px;
+	width: 75%;
+}
+#system_block .omakase ul li{
+	float: left;
+	width: 50%;
+	font-size: 16px;
+	line-height: 2;
+}
+#system_block .omakase ul li::before{
+	font-family: "Font Awesome 5 Free";
+	content: '\f00c';
+	font-weight: 900;
+	color: #3f9ee4;
+	margin-right: 5px;
+}
+#system_block .contact {
+	background: #3f9ee4;
+	color: #fff;
+	padding: 20px;
+	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+}
+#system_block .contact .contact_left {
+	width: 40%;
+	text-align: center;
+}
+#system_block .contact .contact_left .tel{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1;
+}
+#system_block .contact .contact_left .tel::before{
+	font-family: "Font Awesome 5 Free";
+	content: '\f879';
+	font-weight: 900;
+	margin-right: 5px;
+}
+#system_block .contact .contact_right {
+	width: 60%;
+	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+#system_block .contact .contact_right a{
+	background: #ffb400;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	color: #000;
+	padding: 20px;
+	display: block;
+	width: 100%;
+	transition: all .3s;
+}
+#system_block .contact .contact_right a br{
+	display: none;
+}
+#system_block .contact .contact_right a:hover{
+	background: #696f6e;
+	color: #fff;
+}
+@media screen and (max-width: 1000px) {
+	#system_block .area01_04 ul li::before{
+		height: 14vw;
+	}
+	#system_block .area01_04 ul li p{
+		line-height: 14vw;
+	}
+}
+@media screen and (max-width: 840px) {
+	#system_block h3 {
+		font-size:20px;
+	}
+	#system_block .area01_01 {
+		padding: 20px 0 40px 0;
+		background: none;
+	}
+	#system_block .area01_03 h4{
+		font-size: 20px;
+	}
+	#system_block .omakase ul {
+		padding: 20px;
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#system_block .area01, #system_block .area02,
+	#system_block .area03, #system_block .area04,
+	#system_block .area05, #system_block .details{
+		padding-bottom: 40px;
+	}
+	#system_block .area01_04 h4{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	#system_block .area01_04 ul li{
+		width: 48%;
+		height: 30vw;
+		margin-right: 4%;
+		margin-bottom: 20px;
+	}
+	#system_block .area01_04 ul li:nth-child(2n){
+		margin-right: 0;
+	}
+	#system_block .area01_04 ul li::before{
+		height: 30vw;
+	}
+	#system_block .area01_04 ul li p{
+		line-height: 30vw;
+		font-size: 4vw;
+	}
+	#system_block .area04_01 .right, #system_block .area05_01 .right {
+		float: none !important;
+		display: block;
+		margin: 0 auto 20px;
+	}
+	#system_block .details ul li {
+		float: none;
+		width: 100%;
+	}
+	#system_block .omakase ul {
+		width: 100%;
+	}
+	#system_block .omakase ul li{
+		float: none;
+		width: 100%;
+	}
+	#system_block .contact {
+		-webkit-box-orient: vertical;
+	  	-webkit-box-direction: normal;
+	  	-ms-flex-direction: column;
+	  	flex-direction: column;
+	}
+	#system_block .contact .contact_left,
+	#system_block .contact .contact_right{
+		width: 100%;
+	}
+	#system_block .contact .contact_right a{
+		font-size: 18px;
+	}
+	#system_block .contact .contact_right a br{
+		display: inline;
+	}
+}
